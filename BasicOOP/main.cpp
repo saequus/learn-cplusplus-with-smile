@@ -2,6 +2,7 @@
 #include "Animal.cpp"
 #include "Cat.cpp"
 #include "Dog.cpp"
+#include "Output.cpp"
 using namespace std;
 
 int main() {
@@ -37,6 +38,12 @@ int main() {
     third.showKind();
 
     cout << endl;
+
+    // Polymorphism example
+    makeOutput(5);
+    makeOutput(42634333266);
+    makeOutput(-0.23);
+    makeOutput(9, 2.356);
 
     return 0;
 }
